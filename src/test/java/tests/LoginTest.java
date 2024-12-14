@@ -8,7 +8,7 @@ import java.lang.String;
 
 
 public class LoginTest {
-String baseUrl = "https://magento.softwaretestingboard.com/";
+String baseUrl = "https://magento.softwaretestingboard.com/";//url
     @Test
     public void launchApp(){
         WebDriverManager.chromedriver().setup();
